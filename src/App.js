@@ -9,6 +9,7 @@ const App=()=>{
   return(
     <>
     <h1>Counter</h1>
+    <p>my change </p>
     <div className='container'>
     <h2 >{counter}</h2>
     <button onClick={()=>valueUpdate(1)}>Add</button>
