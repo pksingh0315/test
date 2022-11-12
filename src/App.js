@@ -9,7 +9,7 @@ const App=()=>{
   return(
     <>
     <h1>Counter</h1>
-    <h1>my new change</h1>
+  
 
     <div className='container'>
     <h2 >{counter}</h2>
@@ -17,7 +17,7 @@ const App=()=>{
     <button onClick={()=>valueUpdate(-1)}> Reduce</button>
   
     </div>
-    </h1>
+ </>
   )
 }
 export default App
